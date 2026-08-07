@@ -7,7 +7,7 @@ export const ICPCSection: React.FC = () => {
       <div className="container">
         <div className="section-title-wrap">
           <h2 className="section-title">
-            <Trophy size={26} /> Competencias & Algoritmos (ICPC)
+            <Trophy size={26} /> Competencias & Algoritmos <br className="mobile-break" /> (ICPC)
           </h2>
           <div className="section-line"></div>
         </div>

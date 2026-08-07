@@ -7,7 +7,7 @@ export const EducationTimeline: React.FC = () => {
       <div className="container">
         <div className="section-title-wrap">
           <h2 className="section-title">
-            <GraduationCap size={26} /> Formación Académica & Certificaciones
+            <GraduationCap size={26} /> Formación Académica <br className="mobile-break" /> & Certificaciones
           </h2>
           <div className="section-line"></div>
         </div>

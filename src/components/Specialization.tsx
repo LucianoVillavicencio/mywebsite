@@ -7,7 +7,7 @@ export const Specialization: React.FC = () => {
       <div className="container">
         <div className="section-title-wrap">
           <h2 className="section-title">
-            <Cpu size={26} /> Áreas de Especialización Técnico-Profesional
+            <Cpu size={26} /> Áreas de Especialización <br className="mobile-break" /> Técnico-Profesional
           </h2>
           <div className="section-line"></div>
         </div>

@@ -144,6 +144,10 @@ h1, h2, h3, h4 {
     white-space: nowrap;
 }
 
+.mobile-break {
+    display: none;
+}
+
 .section-title svg, .section-title i {
     color: var(--accent-indigo);
 }
@@ -1123,6 +1127,13 @@ body.light-theme .navbar.scrolled {
 
     .section-title {
         font-size: clamp(1.35rem, 5vw, 1.75rem);
+        white-space: normal;
+        flex-wrap: wrap;
+        word-break: break-word;
+    }
+
+    .mobile-break {
+        display: block;
     }
 
     .card {

@@ -7,7 +7,7 @@ export const SkillsGrid: React.FC = () => {
       <div className="container">
         <div className="section-title-wrap">
           <h2 className="section-title">
-            <Code2 size={26} /> Habilidades Técnicas & Tecnologías
+            <Code2 size={26} /> Habilidades Técnicas <br className="mobile-break" /> & Tecnologías
           </h2>
           <div className="section-line"></div>
         </div>
